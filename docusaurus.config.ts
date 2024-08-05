@@ -6,7 +6,7 @@ const config: Config = {
   title: 'WMTx Documentation',
   favicon: 'img/favicon.ico',
 
-  url: '',
+  url: 'https://wmt-bridge.vercel.app/',
   baseUrl: '/',
 
   trailingSlash: false,
