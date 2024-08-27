@@ -1,8 +1,8 @@
 ---
 title: Oracles
 slug: /tools/oracles
-sidebar_position: 4
 description: Documentation for various blockchain oracles for Base. Including support for price feeds and verifiable random functions (VRF).
+sidebar_position: 4
 ---
 
 # Oracles

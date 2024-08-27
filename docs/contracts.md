@@ -1,8 +1,8 @@
 ---
 title: Contracts
-sidebar_position: 7
 slug: /docs/contract
 description: A list of contract addresses for various onchain apps, focusing on both the Base Mainnet and Base Testnet deployments.
+sidebar_position: 7
 ---
 
 # Contracts

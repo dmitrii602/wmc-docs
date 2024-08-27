@@ -1,23 +1,8 @@
 ---
 title: Differences between Ethereum and Base
 sidebar_position: 4
-slug: /building/differences
+slug: /building-with-wmtx/differences
 description: Documentation covering the differences between Ethereum and Base. This page includes details on differences between opcodes, blocks, network specifications, and transaction costs.
-keywords:
-  [
-    Ethereum vs Base,
-    Base differences,
-    difference between Base and Ethereum,
-    Bedrock,
-    OP Stack,
-    Base opcodes,
-    Base blocks,
-    Base network specifications,
-    network specifications,
-    Base transaction costs,
-    transaction costs,
-  ]
-hide_table_of_contents: true
 ---
 
 # Differences between Ethereum and Base

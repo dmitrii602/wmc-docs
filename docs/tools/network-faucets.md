@@ -1,7 +1,7 @@
 ---
-sidebar_position: 3
 description: Integration module for checking user location to confirm transactions.
 slug: /tools/network-faucets
+sidebar_position: 3
 ---
 
 # Network Faucets

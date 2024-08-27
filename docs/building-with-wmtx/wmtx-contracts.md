@@ -1,22 +1,8 @@
 ---
 title: Base Contracts
 sidebar_position: 2
-slug: /building/wmtx-contracts
+slug: /building-with-wmtx/wmtx-contracts
 description: A comprehensive list of L2 contract addresses for Base Mainnet and Base Testnet, including links to their respective blockchain explorers.
-keywords:
-  [
-    Base,
-    Base network,
-    contracts,
-    Base contracts,
-    L2 contract addresses,
-    Base contract addresses,
-    smart contracts,
-    Base smart contracts,
-    Base Mainnet,
-    Base Testnet,
-  ]
-hide_table_of_contents: true
 ---
 
 # Contract Addresses

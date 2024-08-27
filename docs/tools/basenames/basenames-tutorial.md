@@ -1,6 +1,6 @@
 ---
 title: Basenames + Wagmi
-slug: /basenames-tutorial-using-wagmi
+slug: /tools/basenames/basenames-tutorial-using-wagmi
 description: 'A tutorial that teaches how to intergrate Basenames to your wagmi/viem App'
 sidebar_position: 2
 ---

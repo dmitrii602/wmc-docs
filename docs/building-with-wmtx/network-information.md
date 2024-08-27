@@ -1,26 +1,8 @@
 ---
 title: Network Information
 sidebar_position: 1
-slug: /building/network-information
+slug: /building-with-wmtx/network-information
 description: Documentation about Base Mainnet and Base Testnet. This page covers network information for the Base network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
-keywords:
-  [
-    Base network,
-    Base Mainnet,
-    Base Testnet,
-    Sepolia,
-    Base Sepolia,
-    RPC URL,
-    Base RPC URL,
-    Base RPC,
-    Chain ID,
-    chainid,
-    Base Chain ID,
-    Base chainId,
-    network information,
-    Base network information,
-  ]
-hide_table_of_contents: true
 ---
 
 # Network Information

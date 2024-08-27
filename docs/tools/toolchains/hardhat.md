@@ -2,6 +2,7 @@
 title: Hardhat
 slug: /tools/toolchains/hardhat
 description: Documentation for configuring Hardhat for smart contract development on Base, including setup instructions for mainnet, testnet, and local development environments.
+sidebar_position: 2
 ---
 
 # Hardhat

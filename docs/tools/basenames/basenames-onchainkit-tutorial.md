@@ -1,6 +1,6 @@
 ---
 title: Basenames + OnchainKit Tutorial
-slug: /basenames-tutorial-with-onchainkit
+slug: /tools/basenames/basenames-tutorial-with-onchainkit
 description: 'A tutorial that teaches how to intergrate Basenames to your wagmi/viem App using OnchainKit'
 sidebar_position: 3
 ---

@@ -1,6 +1,6 @@
 ---
 title: Superchain Bridges
-slug: /tools/bridges
+slug: /tools/bridges-mainnet
 description: Documentation for bridging assets to Base. This page covers how to bridge ETH and ERC-20s between Ethereum (L1) and Base along with essential information.
 sidebar_position: 10
 ---

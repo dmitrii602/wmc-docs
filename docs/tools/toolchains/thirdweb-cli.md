@@ -2,6 +2,7 @@
 title: thirdweb CLI
 slug: /tools/toolchains/thirdweb-cli
 description: Documentation for using the thirdweb CLI for creating, deploying, and publishing smart contracts and web3 applications on the Base network, including detailed instructions and options for project creation and deployment.
+sidebar_position: 3
 ---
 
 # thirdweb CLI
