@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 101
 description: This section describes the technical aspects required to begin integration.
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 
-# Getting Started
+# 🏷️ Getting Started
 
 :::warning
 The full implementation and description of the API Reference is still in progress and requires some work on our part, but there are no plans to change the method signatures.
@@ -20,18 +20,13 @@ To gain access to the environment, a special token is required, which is generat
 
 <Tabs>
   <TabItem value="stage" label="Stage" default>
-    ```
-      services-stage-mx6hvkth4a-uc.a.run.app
-      services.stage.galactica.games
+    ``` services-stage-mx6hvkth4a-uc.a.run.app services.stage.galactica.games
     ```
   </TabItem>
   <TabItem value="Production" label="Production" default>
-    ```
-      services.galactica.games
-    ```
+    ``` services.galactica.games ```
   </TabItem>
 </Tabs>
-
 
 ## Install dependencies
 
@@ -58,7 +53,7 @@ export const getTransport = (): GrpcTransport => {
   const host = process.env.SERVICES_API_URL ?? "";
   return new GrpcTransport({
     host,
-    channelCredentials: host.includes('localhost')
+    channelCredentials: host.includes("localhost")
       ? ChannelCredentials.createInsecure()
       : ChannelCredentials.createSsl(),
   });
@@ -67,12 +62,11 @@ export const getTransport = (): GrpcTransport => {
 export const getAuthorization = (accessToken: string): RpcOptions => {
   return {
     meta: {
-      authorization: `Bearer ${accessToken}`
-    }
+      authorization: `Bearer ${accessToken}`,
+    },
   };
 };
 ```
-
 
 :::info
 Please note that this example uses the `SERVICES_API_URL` environment variable. If your name for this variable is different, you need to edit the example code to suit your needs.
@@ -100,14 +94,14 @@ import { getAuthorization, getTransport } from "./utils/transport";
 export const accessChecker = async (): Promise<Access> => {
   // creates service instance using transport as a parameter
   const service = new RestrictionsServiceClient(getTransport());
-  
+
   const access = await service.isAccessAllowed({});
   // in case authorization needed, use the next way of doing request
   // auth token - token, which backend gives for user oprations
   // const access = await service.isAccessAllowed({}, getAuthorization('auth token'));
 
   return access.response;
-}
+};
 
 accessChecker().then((access: Access) => {
   console.log(access);
@@ -116,8 +110,7 @@ accessChecker().then((access: Access) => {
 });
 ```
 
-
 An example application for checking a location is attached below as an archive.
 
-link to file 
+link to file
 src=".gitbook/assets/integration-sdk-example.zip"

@@ -1,10 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_position: 100
 description: General description of interactions with LinQ services
-slug: /
 ---
 
-# Introduction
+# 🏷️ Introduction
 
 This documentation describes the integration process with LinQ services, as well as the login mechanism through the special LinQ application. Logging in through the LinQ app allows users to authenticate and gives access to all cash flow related features. This is necessary to improve usability and security. However, basic functions are available without authorization through the application.
 

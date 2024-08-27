@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 103
 ---
 
-# Get support
+# 🏷️ Get support
 
 We'd love to stay in touch—here are a few ways to stay up to date.
 
