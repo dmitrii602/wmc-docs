@@ -1,9 +1,0 @@
-{
-  "label": "🏷️ Integration Modules",
-  "position": 102,
-  "collapsed": true,
-  "link": {
-    "type": "generated-index",
-    "description": "Description of the main integration modules, used in the API."
-  }
-}

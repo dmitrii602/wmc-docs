@@ -1,6 +1,6 @@
 {
-  "label": "Tools",
-  "position": 5,
+  "label": "Onchain Registry",
+  "position": 11,
   "collapsed": true,
   "link": {
     "type": "generated-index",

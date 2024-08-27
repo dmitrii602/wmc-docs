@@ -1,6 +1,6 @@
 {
-  "label": "Tools",
-  "position": 5,
+  "label": "Basenames",
+  "position": 12,
   "collapsed": true,
   "link": {
     "type": "generated-index",
