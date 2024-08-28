@@ -104,76 +104,76 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Documentation',
-          items: [
-            {
-              label: 'Auth Actions',
-              to: '/modules/auth',
-            },
-            {
-              label: 'Money Operations',
-              to: '/modules/money',
-            },
-            {
-              label: 'Play Mechanics',
-              to: '/modules/play',
-            },
-            {
-              label: 'Location Checks',
-              to: '/modules/location-checks',
-            },
-          ],
-        },
-        {
-          title: 'Developers',
-          items: [
-            {
-              label: 'Platform SDKs',
-              href: 'https://buf.build/linq/linq',
-            },
-            {
-              label: 'Buf Studio',
-              href: 'https://buf.build/studio',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/linkgg/docs',
-            },
-          ],
-        },
-        {
-          title: 'Resources',
-          items: [
-            {
-              label: 'LinQ Pay',
-              href: 'https://linq.gg/',
-            },
-            {
-              label: 'App Store',
-              href: 'https://apps.apple.com/us/developer/galactica-games/id1680876974',
-            },
-          ],
-        },
-        {
-          title: 'Legal',
-          items: [
-            {
-              label: 'Privacy Policy',
-              href: 'https://linq.gg/privacy-policy',
-            },
-            {
-              label: 'Terms & Conditions',
-              href: 'https://linq.gg/terms-of-use',
-            },
-            {
-              label: 'Contact',
-              href: 'mailto:help@galactica.games',
-            },
-          ],
-        },
-      ],
+      // links: [
+      //   {
+      //     title: 'Documentation',
+      //     items: [
+      //       {
+      //         label: 'Auth Actions',
+      //         to: '/modules/auth',
+      //       },
+      //       {
+      //         label: 'Money Operations',
+      //         to: '/modules/money',
+      //       },
+      //       {
+      //         label: 'Play Mechanics',
+      //         to: '/modules/play',
+      //       },
+      //       {
+      //         label: 'Location Checks',
+      //         to: '/modules/location-checks',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Developers',
+      //     items: [
+      //       {
+      //         label: 'Platform SDKs',
+      //         href: 'https://buf.build/linq/linq',
+      //       },
+      //       {
+      //         label: 'Buf Studio',
+      //         href: 'https://buf.build/studio',
+      //       },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/linkgg/docs',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Resources',
+      //     items: [
+      //       {
+      //         label: 'LinQ Pay',
+      //         href: 'https://linq.gg/',
+      //       },
+      //       {
+      //         label: 'App Store',
+      //         href: 'https://apps.apple.com/us/developer/galactica-games/id1680876974',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Legal',
+      //     items: [
+      //       {
+      //         label: 'Privacy Policy',
+      //         href: 'https://linq.gg/privacy-policy',
+      //       },
+      //       {
+      //         label: 'Terms & Conditions',
+      //         href: 'https://linq.gg/terms-of-use',
+      //       },
+      //       {
+      //         label: 'Contact',
+      //         href: 'mailto:help@galactica.games',
+      //       },
+      //     ],
+      //   },
+      // ],
       copyright: `Copyright © ${new Date().getFullYear()} WMT. Built with Docusaurus.`,
     },
     prism: {

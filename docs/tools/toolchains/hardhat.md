@@ -43,7 +43,7 @@ networks: {
 
 :::info
 
-For a complete guide on using Hardhat to deploy contracts on Base, see [Deploying a Smart Contract](/tutorials/deploy-with-hardhat).
+For a complete guide on using Hardhat to deploy contracts on Base, see Deploying a Smart Contract.
 
 :::
 

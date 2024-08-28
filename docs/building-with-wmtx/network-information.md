@@ -36,7 +36,7 @@ description: Documentation about Base Mainnet and Base Testnet. This page covers
 ---
 
 :::info
-L1 & L2 protocol and network-related smart contract deployments can be found on the [Base Contracts](/docs/base-contracts) page.
+L1 & L2 protocol and network-related smart contract deployments can be found on the Base Contracts page.
 :::
 
 :::info
@@ -45,5 +45,3 @@ For production systems, we recommend using a node from one of our [node partners
 
 ---
 
-[running your own Base node]: /tutorials/run-a-base-node
-[node partners]: /docs/tools/node-providers
