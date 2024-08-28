@@ -36,11 +36,11 @@ description: Documentation about Base Mainnet and Base Testnet. This page covers
 ---
 
 :::info
-L1 & L2 protocol and network-related smart contract deployments can be found on the Base Contracts page.
+L1 & L2 protocol and network-related smart contract deployments can be found on the [Base Contracts](/building-with-wmtx/wmtx-contracts) page.
 :::
 
 :::info
-For production systems, we recommend using a node from one of our [node partners], or [running your own Base node].
+For production systems, we recommend using a node from one of our [node partners](/tools/node-providers), or running your own Base node.
 :::
 
 ---

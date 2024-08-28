@@ -34,6 +34,6 @@ Some common examples of projects we cannot feature at this time include:
 
 ### How can I pull entries from the Registry?
 
-We offer an Onchain Registry API that gives users the ability to display Onchain Registry entries on their own surfaces. Our Onchain Registry API docs can be found here.
+We offer an Onchain Registry API that gives users the ability to display Onchain Registry entries on their own surfaces. Our Onchain Registry API docs can be found [here](/tools/onchain-registry/registry-api).
 
 ---

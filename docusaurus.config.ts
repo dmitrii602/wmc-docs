@@ -36,7 +36,7 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          // editUrl: 'https://github.com/dmitrii602/wmt-docs/tree/master',
+          editUrl: 'https://github.com/dmitrii602/wmt-docs/tree/master',
         },
         theme: {
           customCss: './src/css/custom.css',
