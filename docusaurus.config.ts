@@ -55,8 +55,14 @@ const config: Config = {
     ],
   ],
   themeConfig: {
-    // Replace with your project's social card  todo:
-    // image: 'img/docusaurus-social-card.jpg',
+    announcementBar: {
+      id: 'dev-release',
+      content:
+        `${process.env.ANNOUNCEMENT_BAR_TEXT}`,
+      backgroundColor: '#F6642D',
+      textColor: '#F8F4FF',
+      isCloseable: false,
+    },
     navbar: {
       title: `${process.env.PRODUCT_NAME} Docs`,
       logo: {
@@ -65,49 +71,92 @@ const config: Config = {
       },
       items: [
         // {
-        //   to: '/getting-started',
-        //   label: 'Getting Started',
+        //   to: `${process.env.HOME_URL}`,
+        //   exact: true,
         //   position: 'left',
-        // },
-        // {
-        //   to: '/modules/auth',
-        //   position: 'left',
-        //   label: 'Auth & Login',
-        // },
-        // {
-        //   to: '/modules/location-checks',
-        //   position: 'left',
-        //   label: 'Locations',
-        // },
-        // {
-        //   to: '/modules/money',
-        //   position: 'left',
-        //   label: 'Money',
-        // },
-        // {
-        //   to: 'modules/authentication',
-        //   position: 'left',
-        //   label: 'Games',
-        // },
-        // {
-        //   href: 'https://github.com/linqgg/unity-sdk',
-        //   label: 'Unity SDK',
-        //   position: 'right'
-        // },
-        // {
-        //   href: 'https://buf.build/linq/linq',
-        //   label: 'Server SDK',
-        //   position: 'right'
-        // },
-        // {
-        //   href: 'https://linq.gg/',
-        //   label: 'LinQ Pay',
-        //   position: 'right'
+        //   label: 'Home',
         // },
         {
-          href: `${process.env.GIT_HUB_URL}`,
-          label: 'GitHub',
+          to: '/',
+          exact: true,
+          position: 'left',
+          label: 'Introduction',
+        },
+        {
+          type: 'dropdown',
+          label: 'Building',
+          position: 'left',
+          items: [
+            {
+              label: 'Network Info',
+              to: '/building-with-wmtx/network-information',
+            },
+            {
+              label: 'Contracts',
+              to: '/building-with-wmtx/wmtx-contracts',
+            },
+          ],
+        },
+        {
+          type: 'dropdown',
+          label: 'Tools',
+          position: 'left',
+          items: [
+          ],
+        },
+        {
+          label: 'Bridge',
           position: 'right',
+          to: `${process.env.BRIDGE_URL}`,
+        },
+        {
+          type: 'dropdown',
+          label: 'Builders',
+          position: 'right',
+          items: [
+            {
+              label: 'Block Explorer',
+              to: `${process.env.BLOCK_EXPLORER_URL}`,
+              target: '_blank',
+            },
+            {
+              label: 'Faucet',
+              to: `${process.env.FAUCET_URL}`,
+              target: '_blank',
+            },
+            {
+              label: 'Status',
+              to: `${process.env.STATUS_URL}`,
+              target: '_blank',
+            },
+          ],
+        },
+        {
+          type: 'dropdown',
+          label: 'Socials',
+          position: 'right',
+          items: [
+            {
+              label: 'Telegram',
+              target: '_blank',
+              to: `${process.env.TELEGRAM_URL}`,
+            },
+            {
+              label: 'Discord',
+              target: '_blank',
+              to: `${process.env.DISCORD_URL}`,
+            },
+            {
+              label: 'Twitter',
+              target: '_blank',
+              to: `${process.env.TWITTER_URL}`,
+            },
+            {
+              label: 'Github',
+              target: '_blank',
+              to: `${process.env.GIT_HUB_URL}`,
+            },
+          ],
         },
       ],
     },
