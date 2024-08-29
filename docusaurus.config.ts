@@ -116,7 +116,7 @@ const config: Config = {
           items: [
             {
               label: 'Block Explorer',
-              to: `${process.env.BLOCK_EXPLORER_URL}`,
+              to: `${process.env.BLOCK_EXPLORER_TESTNET}`,
               target: '_blank',
             },
             {

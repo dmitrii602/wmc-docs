@@ -2,45 +2,47 @@
 title: Network Information
 sidebar_position: 1
 slug: /building-with-wmtx/network-information
-description: Documentation about Base Mainnet and Base Testnet. This page covers network information for the Base network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
+description: Documentation about {process.env.PRODUCT_NAME} Mainnet and {process.env.PRODUCT_NAME} Testnet. This page covers network information for the {process.env.PRODUCT_NAME} network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
 ---
+import BlockExplorerLinkMainnet from '../../src/components/Links/BlockExplorerLinkMainnet';
+import BlockExplorerLinkTestnet from '../../src/components/Links/BlockExplorerLinkTestnet';
 
 # Network Information
 
 ---
 
-#### Base Mainnet
+#### {process.env.PRODUCT_NAME} Mainnet
 
 | Name            | Value                                                                                                   |
 | :-------------- | :------------------------------------------------------------------------------------------------------ |
-| Network Name    | Base Mainnet                                                                                            |
-| Description     | The public mainnet for Base.                                                                            |
-| RPC Endpoint    | [https://mainnet.base.org](https://mainnet.base.org)<br/>_Rate limited and not for production systems._ |
-| Chain ID        | 8453                                                                                                    |
-| Currency Symbol | ETH                                                                                                     |
-| Block Explorer  | [https://base.blockscout.com/](https://base.blockscout.com/)                                            |
+| Network Name    | {process.env.PRODUCT_NAME} Mainnet                                                                                            |
+| Description     | The public mainnet for {process.env.PRODUCT_NAME}.                                                                            |
+| RPC Endpoint    | {process.env.RPC_ENDPOINT_MAINNET} <br/>_Rate limited and not for production systems._ |
+| Chain ID        | {process.env.CHAIN_ID_MAINNET}                                                                                                    |
+| Currency Symbol | {process.env.CURRENCY_SYMBOL_MAINNET}                                                                                                     |
+| Block Explorer  | <BlockExplorerLinkMainnet /> |
 
 ---
 
-#### Base Testnet (Sepolia)
+#### {process.env.PRODUCT_NAME} Testnet (Sepolia)
 
 | Name            | Value                                                                                                   |
 | :-------------- | :------------------------------------------------------------------------------------------------------ |
-| Network Name    | Base Sepolia                                                                                            |
-| Description     | A public testnet for Base.                                                                              |
-| RPC Endpoint    | [https://sepolia.base.org](https://sepolia.base.org)<br/>_Rate limited and not for production systems._ |
-| Chain ID        | 84532                                                                                                   |
-| Currency Symbol | ETH                                                                                                     |
-| Block Explorer  | [https://sepolia-explorer.base.org](https://sepolia-explorer.base.org)                                  |
+| Network Name    | {process.env.PRODUCT_NAME} Sepolia                                                                                            |
+| Description     | A public testnet for {process.env.PRODUCT_NAME}.                                                                              |
+| RPC Endpoint    | {process.env.RPC_ENDPOINT_TESTNET} <br/>_Rate limited and not for production systems._ |
+| Chain ID        | {process.env.CHAIN_ID_TESTNET}                                                                                                   |
+| Currency Symbol | {process.env.CURRENCY_SYMBOL_TESTNET}                                                                                                     |
+| Block Explorer  | <BlockExplorerLinkTestnet />                                  |
 
 ---
 
 :::info
-L1 & L2 protocol and network-related smart contract deployments can be found on the [Base Contracts](/building-with-wmtx/wmtx-contracts) page.
+L1 & L2 protocol and network-related smart contract deployments can be found on the [{process.env.PRODUCT_NAME} Contracts](/building-with-wmtx/wmtx-contracts) page.
 :::
 
 :::info
-For production systems, we recommend using a node from one of our [node partners](/tools/node-providers), or running your own Base node.
+For production systems, we recommend using a node from one of our [node partners](/tools/node-providers), or running your own {process.env.PRODUCT_NAME} node.
 :::
 
 ---
