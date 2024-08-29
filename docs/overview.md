@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: About {process.env.PRODUCT_NAME}
+description: About WMTx
 slug: /
 
 ---

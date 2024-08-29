@@ -2,7 +2,7 @@
 title: Network Information
 sidebar_position: 1
 slug: /building-with-wmtx/network-information
-description: Documentation about {process.env.PRODUCT_NAME} Mainnet and {process.env.PRODUCT_NAME} Testnet. This page covers network information for the {process.env.PRODUCT_NAME} network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
+description: Documentation about WMTx Mainnet and WMTx Testnet. This page covers network information for the WMTx network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
 ---
 import BlockExplorerLinkMainnet from '../../src/components/Links/BlockExplorerLinkMainnet';
 import BlockExplorerLinkTestnet from '../../src/components/Links/BlockExplorerLinkTestnet';
@@ -11,7 +11,7 @@ import BlockExplorerLinkTestnet from '../../src/components/Links/BlockExplorerLi
 
 ---
 
-#### {process.env.PRODUCT_NAME} Mainnet
+#### WMTx Mainnet
 
 | Name            | Value                                                                                                   |
 | :-------------- | :------------------------------------------------------------------------------------------------------ |
