@@ -46,7 +46,14 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  plugins: [
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+      },
+    ],
+  ],
   themeConfig: {
     // Replace with your project's social card  todo:
     // image: 'img/docusaurus-social-card.jpg',
