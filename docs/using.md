@@ -2,7 +2,7 @@
 sidebar_position: 2
 description: General description of interactions with LinQ services
 slug: /docs/using
-title: Integrating WMTx
+title: Using WMTx
 ---
 
 import BlockExplorerLinkMainnet from '/src/components/Links/BlockExplorerLinkMainnet';
