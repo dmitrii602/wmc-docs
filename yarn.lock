@@ -3896,7 +3896,7 @@ dns-packet@^5.2.2:
 
 docusaurus2-dotenv@^1.4.0:
   version "1.4.0"
-  resolved "https://registry.yarnpkg.com/docusaurus2-dotenv/-/docusaurus2-dotenv-1.4.0.tgz#9ab900e29de9081f9f1f28f7224ff63760385641"
+  resolved "https://registry.npmjs.org/docusaurus2-dotenv/-/docusaurus2-dotenv-1.4.0.tgz#9ab900e29de9081f9f1f28f7224ff63760385641"
   integrity sha512-iWqem5fnBAyeBBtX75Fxp71uUAnwFaXzOmade8zAhN4vL3RG9m27sLSRwjJGVVgIkEo3esjGyCcTGTiCjfi+sg==
   dependencies:
     dotenv-webpack "1.7.0"
