@@ -8,6 +8,7 @@ slug: /
 
 # About WMTx
 
+
 Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.
 
 Base is incubated within Coinbase and plans to progressively decentralize in the years ahead. We believe that decentralization is critical to creating an open, global cryptoeconomy that is accessible to everyone.
