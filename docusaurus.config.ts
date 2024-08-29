@@ -1,17 +1,20 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 const config: Config = {
-  title: 'WMTx Documentation',
+  title: `${process.env.PRODUCT_NAME} Docs`,
   favicon: 'img/favicon.ico',
 
-  url: 'https://wmt-bridge.vercel.app/',
+  url: `${process.env.PRODUCT_URL}`,
   baseUrl: '/',
 
   trailingSlash: false,
 
-  organizationName: 'worldmobilegroup',
+  organizationName: `${process.env.ORGANIZATION_NAME}`,
   projectName: 'docs',
 
   onBrokenLinks: 'throw',
@@ -36,7 +39,6 @@ const config: Config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/dmitrii602/wmt-docs/tree/master',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -49,9 +51,9 @@ const config: Config = {
     // Replace with your project's social card  todo:
     // image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'WMTx Docs',
+      title: `${process.env.PRODUCT_NAME} Docs`,
       logo: {
-        alt: 'WMTx Logo',
+        alt: `${process.env.PRODUCT_NAME} Logo`,
         src: 'img/logo.svg',
       },
       items: [
@@ -96,7 +98,7 @@ const config: Config = {
         //   position: 'right'
         // },
         {
-          href: 'https://github.com/worldmobilegroup',
+          href: `${process.env.GIT_HUB_URL}`,
           label: 'GitHub',
           position: 'right',
         },
@@ -174,7 +176,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} WMT. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ${process.env.PRODUCT_NAME}`,
     },
     prism: {
       theme: prismThemes.github,
