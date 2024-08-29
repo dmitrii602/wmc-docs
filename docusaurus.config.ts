@@ -242,6 +242,11 @@ const config: Config = {
     mermaid: {
       theme: { light: 'neutral', dark: 'forest' },
     },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+      },
+    },
   } satisfies Preset.ThemeConfig,
 };
 

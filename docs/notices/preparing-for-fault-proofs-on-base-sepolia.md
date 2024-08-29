@@ -3,6 +3,7 @@ sidebar_position: 1
 description: Description of methods for working with tournaments and its players
 slug: /noties/preparing-for-fault-proofs-on-base-sepolia
 title: Preparing for fault proofs on Base Sepolia
+# sidebar_class_name: hidden
 ---
 
 # Preparing for fault proofs on Base Sepolia (Testnet)

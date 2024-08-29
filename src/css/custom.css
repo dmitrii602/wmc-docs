@@ -80,3 +80,7 @@ footer.footer {
 .menu__list-item-collapsible~ul>li a {
   padding-left: 15px;
 }
+
+.hidden {
+  display: none !important;
+}
