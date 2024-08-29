@@ -6,7 +6,9 @@ slug: /
 
 ---
 
-# About WMTx
+# Introduction
+
+## About WMTx
 
 <img src="img/banner.png" title="banner" />
 Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.
