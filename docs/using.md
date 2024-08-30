@@ -5,8 +5,7 @@ slug: /docs/using
 title: Using WMTx
 ---
 
-import BlockExplorerLinkMainnet from '/src/components/Links/BlockExplorerLinkMainnet';
-import BlockExplorerLinkTestnet from '/src/components/Links/BlockExplorerLinkTestnet';
+import Link from '/src/components/Links/Link';
 
 # Using WMTx with your wallet
 
@@ -29,7 +28,7 @@ To add {process.env.PRODUCT_NAME} as a custom network to MetaMask:
    | RPC Endpoint    | {process.env.RPC_ENDPOINT_MAINNET}         |
    | Chain ID        | {process.env.CHAIN_ID_MAINNET}                                                         |
    | Currency Symbol | {process.env.CURRENCY_SYMBOL_MAINNET}                                                          |
-   | Block Explorer  | <BlockExplorerLinkMainnet/> |
+   | Block Explorer  | <Link url={process.env.BLOCK_EXPLORER_MAINNET} showUrl={true} />  |
 
 6. Tap the Save button to save {process.env.PRODUCT_NAME} as a network.
 
@@ -55,7 +54,8 @@ To add {process.env.PRODUCT_NAME} Sepolia as a custom network to MetaMask:
    | RPC Endpoint    | {process.env.RPC_ENDPOINT_TESTNET}                   |
    | Chain ID        | {process.env.CHAIN_ID_TESTNET}                                                                  |
    | Currency Symbol | {process.env.CURRENCY_SYMBOL_TESTNET}                                                                    |
-   | Block Explorer  | <BlockExplorerLinkTestnet/> |
+   | Block Explorer  | <Link url={process.env.BLOCK_EXPLORER_TESTNET} showUrl={true} /> |
+
 
 6. Tap the Save button to save {process.env.PRODUCT_NAME} Sepolia as a network.
 

@@ -4,8 +4,8 @@ sidebar_position: 1
 slug: /building-with-wmtx/network-information
 description: Documentation about WMTx Mainnet and WMTx Testnet. This page covers network information for the WMTx network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
 ---
-import BlockExplorerLinkMainnet from '../../src/components/Links/BlockExplorerLinkMainnet';
-import BlockExplorerLinkTestnet from '../../src/components/Links/BlockExplorerLinkTestnet';
+
+import Link from '/src/components/Links/Link';
 
 # Network Information
 
@@ -20,7 +20,7 @@ import BlockExplorerLinkTestnet from '../../src/components/Links/BlockExplorerLi
 | RPC Endpoint    | {process.env.RPC_ENDPOINT_MAINNET} <br/>_Rate limited and not for production systems._ |
 | Chain ID        | {process.env.CHAIN_ID_MAINNET}                                                                                                    |
 | Currency Symbol | {process.env.CURRENCY_SYMBOL_MAINNET}                                                                                                     |
-| Block Explorer  | <BlockExplorerLinkMainnet /> |
+| Block Explorer  | <Link url={process.env.BLOCK_EXPLORER_MAINNET} showUrl={true} />  |
 
 ---
 
@@ -33,7 +33,7 @@ import BlockExplorerLinkTestnet from '../../src/components/Links/BlockExplorerLi
 | RPC Endpoint    | {process.env.RPC_ENDPOINT_TESTNET} <br/>_Rate limited and not for production systems._ |
 | Chain ID        | {process.env.CHAIN_ID_TESTNET}                                                                                                   |
 | Currency Symbol | {process.env.CURRENCY_SYMBOL_TESTNET}                                                                                                     |
-| Block Explorer  | <BlockExplorerLinkTestnet />                                  |
+| Block Explorer  | <Link url={process.env.BLOCK_EXPLORER_TESTNET} showUrl={true} />                                   |
 
 ---
 
