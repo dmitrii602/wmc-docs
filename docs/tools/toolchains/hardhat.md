@@ -1,49 +1,49 @@
 ---
 title: Hardhat
 slug: /tools/toolchains/hardhat
-description: Documentation for configuring Hardhat for smart contract development on Base, including setup instructions for mainnet, testnet, and local development environments.
+description: Documentation for configuring Hardhat for smart contract development on WMTx, including setup instructions for mainnet, testnet, and local development environments.
 sidebar_position: 2
 ---
 
 # Hardhat
 
-Hardhat is an Ethereum development environment for flexible, extensible, and fast smart contract development.
+Hardhat is a robust Ethereum development platform that provides a versatile and efficient environment for smart contract development.
 
-You can use Hardhat to edit, compile, debug, and deploy your smart contracts to Base.
+Utilize Hardhat to manage the entire lifecycle of your smart contracts, including editing, compiling, debugging, and deploying on WMTx.
 
 ---
 
-# Using Hardhat with Base
+# Configuring Hardhat for WMTx
 
-To configure [Hardhat](https://hardhat.org/) to deploy smart contracts to Base, update your project’s `hardhat.config.ts` file by adding Base as a network:
+To set up [Hardhat](https://hardhat.org/) for deploying smart contracts on WMTx, update your project’s `hardhat.config.ts` file by adding WMTx as a network:
 
 ```tsx
 networks: {
    // for mainnet
-   "base-mainnet": {
-     url: 'https://mainnet.base.org',
+   "wmtx-mainnet": {
+     url: "https://default.url", // rpc mainnet
      accounts: [process.env.PRIVATE_KEY as string],
      gasPrice: 1000000000,
    },
    // for Sepolia testnet
-   "base-sepolia": {
-     url: "https://sepolia.base.org",
+   "wmtx-sepolia": {
+     url: "https://default.url", // rpc testnet
      accounts: [process.env.PRIVATE_KEY as string],
      gasPrice: 1000000000,
    },
-   // for local dev environment
-   "base-local": {
+   // for local development environment
+   "wmtx-local": {
      url: "http://localhost:8545",
      accounts: [process.env.PRIVATE_KEY as string],
      gasPrice: 1000000000,
    },
  },
- defaultNetwork: "base-local",
+ defaultNetwork: "wmtx-local",
 ```
 
 :::info
 
-For a complete guide on using Hardhat to deploy contracts on Base, see Deploying a Smart Contract.
+For a complete guide on using Hardhat to deploy contracts on WMTx, see Deploying a Smart Contract.
 
 :::
 
