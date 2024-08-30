@@ -1,7 +1,7 @@
 ---
 title: Security
 slug: /docs/security
-description: The Base bug bounty program and procedures for reporting vulnerabilities.
+description: The WMTx bug bounty program and procedures for reporting vulnerabilities.
 sidebar_position: 8
 ---
 
@@ -11,20 +11,21 @@ sidebar_position: 8
 
 ## Bug bounty program
 
-In line with our strategy of being the safest way for users to access crypto:
+As part of our commitment to being the safest way for users to access decentralized services:
 
-- Coinbase will be extending our [best-in-industry](https://www.coinbase.com/blog/celebrating-10-years-of-our-bug-bounty-program) million-dollar [HackerOne bug bounty program](https://hackerone.com/coinbase?type=team) to cover the Base network, the Base bridge contracts, and Base infrastructure.
-- Coinbase will be working in tandem with OP Labs to harden the security guarantees of Bedrock and accelerate the timeline for decentralized fault-proofs on the [OP Stack](https://stack.optimism.io/).
-- Coinbase's bug bounty program will run alongside Optimism's existing [Immunefi Bedrock bounty program](https://immunefi.com/bounty/optimism/) to support the open source [Bedrock](https://stack.optimism.io/docs/releases/bedrock/) OP Stack framework.
+- WMTx is extending its [top-tier](#) million-dollar [HackerOne bug bounty program](#) to cover the WMTx network, the WMTx bridge contracts, and WMTx infrastructure.
+- WMTx will collaborate closely with OP Labs to enhance the security guarantees of Bedrock and expedite the implementation of decentralized fault-proofs on the [OP Stack](https://stack.optimism.io/).
+- WMTx's bug bounty program will operate in parallel with Optimism's existing [Immunefi Bedrock bounty program](https://immunefi.com/bounty/optimism/) to support the open-source [Bedrock](https://stack.optimism.io/docs/releases/bedrock/) OP Stack framework.
 
 ---
 
 ## Reporting vulnerabilities
 
-All potential vulnerability reports can be submitted via the [HackerOne](https://hackerone.com/coinbase) platform.
+Potential vulnerabilities can be reported through the [HackerOne](https://hackerone.com/wmtx) platform.
 
-The HackerOne platform allows us to have a centralized and single reporting source for us to deliver optimized SLA's and results. All reports submitted to the platform are triaged around the clock by our team of Coinbase engineers with domain knowledge, assuring the best quality of review.
+Using HackerOne allows us to consolidate all reports into a single, streamlined system, ensuring efficient response times and effective resolutions. Every submission is reviewed 24/7 by our dedicated WMTx engineering team, who possess deep expertise in the relevant domains, guaranteeing a thorough and accurate assessment.
 
-For more information on reporting vulnerabilities and our HackerOne bug bounty program, view our [security program policies](https://hackerone.com/coinbase?view_policy=true).
+For more details on how to report vulnerabilities and to learn more about our HackerOne bug bounty program, please refer to our [security program policies](https://hackerone.com/wmtx?view_policy=true).
+
 
 ---
