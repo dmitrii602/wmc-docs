@@ -5,6 +5,8 @@ description: How to submit ERC-20 tokens for bridging between Ethereum (L1) and 
 sidebar_position: 1
 ---
 
+import Link from '/src/components/Links/Link';
+
 # The WMTx Token List
 
 <img src="../img/bridge.png" title="banner" />
@@ -12,6 +14,9 @@ sidebar_position: 1
 This page is intended for token issuers who already have an ERC-20 contract deployed on Ethereum (L1) and would like to submit their token for bridging between Ethereum (L1) and WMTx (L3). WMTx uses the [Optimism Superchain token list](#) as a reference for tokens that have been deployed on WMTx.
 
 **_Disclaimer: WMTx does not endorse any of the tokens that are listed in the Github repository and has conducted only preliminary checks, which include automated checks listed_** [**_here_**](#)**_._**
+
+To learn more about the bridging process between L1 and L3, please refer to the <Link url={process.env.BRIDGE_TESTNET}>bridge itself</Link>.
+
 
 ---
 
