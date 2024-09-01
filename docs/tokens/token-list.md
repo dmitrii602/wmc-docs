@@ -11,9 +11,9 @@ import Link from '/src/components/Links/Link';
 
 <img src="../img/bridge.png" title="banner" />
 
-This page is intended for token issuers who already have an ERC-20 contract deployed on Ethereum (L1) and would like to submit their token for bridging between Ethereum (L1) and WMTx (L3). WMTx uses the [Optimism Superchain token list](#) as a reference for tokens that have been deployed on WMTx.
+This page is intended for token issuers who already have an ERC-20 contract deployed on Ethereum (L1) and would like to submit their token for bridging between Ethereum (L1) and WMTx (L3). WMTx uses the [Optimism Superchain token list](https://github.com/ethereum-optimism/ethereum-optimism.github.io) as a reference for tokens that have been deployed on WMTx.
 
-**_Disclaimer: WMTx does not endorse any of the tokens that are listed in the Github repository and has conducted only preliminary checks, which include automated checks listed_** [**_here_**](#)**_._**
+**_Disclaimer: WMTx does not endorse any of the tokens that are listed in the Github repository and has conducted only preliminary checks, which include automated checks listed_** [**_here_**](https://github.com/ethereum-optimism/ethereum-optimism.github.io)**_._**
 
 To learn more about the bridging process between L1 and L3, please refer to the <Link url={process.env.BRIDGE_TESTNET}>bridge itself</Link>.
 
@@ -26,11 +26,11 @@ The steps below explain how to get your token on the WMTx Token List.
 
 ### Step 1: Deploy your token on WMTx
 
-Select your preferred bridging framework and use it to deploy an ERC-20 for your token on WMTx. We recommend you use the framework provided by WMTx's [standard bridge](#) contracts, and furthermore deploy your token using the [OptimismMintableERC20Factory](/building-with-wmtx/wmtx-contracts). Deploying your token on WMTx in this manner provides us with guarantees that will smooth the approval process. If you choose a different bridging framework, its interface must be compatible with that of the standard bridge, otherwise it may be difficult for us to support.
+Select your preferred bridging framework and use it to deploy an ERC-20 for your token on WMTx. We recommend you use the framework provided by WMTx's standard bridge contracts, and furthermore deploy your token using the [OptimismMintableERC20Factory](/building-with-wmtx/wmtx-contracts). Deploying your token on WMTx in this manner provides us with guarantees that will smooth the approval process. If you choose a different bridging framework, its interface must be compatible with that of the standard bridge, otherwise it may be difficult for us to support.
 
 ### Step 2: Submit details for your token
 
-Follow the instructions in the [GitHub repository](https://github.com/ethereum-optimism/ethereum-optimism.github.io) and submit a PR containing the required details for your token. You must specify in your token's data.json file a section for ‘wmtx-sepolia' and/or ‘wmtx’. The change you need to submit is particularly simple if your token has already been added to the Optimism token list. For example, [this PR](#) shows the change required for cbETH, which was already on Optimism's token list and relies on the WMTx standard bridge.
+Follow the instructions in the [GitHub repository](https://github.com/ethereum-optimism/ethereum-optimism.github.io) and submit a PR containing the required details for your token. You must specify in your token's data.json file a section for ‘wmtx-sepolia' and/or ‘wmtx’. The change you need to submit is particularly simple if your token has already been added to the Optimism token list.
 
 ### Step 3: Await final approval
 
