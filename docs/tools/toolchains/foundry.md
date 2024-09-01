@@ -1,32 +1,32 @@
 ---
 title: Foundry
 slug: /tools/toolchains/foundry
-description: Documentation for Foundry, a toolchain for smart contract development. Provides instructions on deploying and verifying contracts on Base's mainnet and testnet using Foundry.
+description: Documentation for Foundry, a toolchain for smart contract development. Provides instructions on deploying and verifying contracts on WMC's mainnet and testnet using Foundry.
 sidebar_position: 1
 ---
 
 # Foundry
 
-Foundry is a smart contract development toolchain.
+Foundry is a comprehensive toolchain for smart contract development.
 
-With Foundry you can manage your dependencies, compile your project, run tests, deploy smart contracts, and interact with the chain from the command-line and via Solidity scripts.
+With Foundry, you can manage dependencies, compile projects, run tests, deploy smart contracts, and interact with the blockchain via the command line and Solidity scripts.
 
-Check out the [Foundry Book](https://book.getfoundry.sh/) to get started with using Foundry with Base.
+Refer to the [Foundry Book](https://book.getfoundry.sh/) to begin using Foundry with WMC.
 
 ---
 
-# Using Foundry with Base
+# Using Foundry with WMC
 
-Foundry supports Base out-of-the-box.
+Foundry offers native support for WMC.
 
-Just provide the Base RPC URL and Chain ID when deploying and verifying your contracts.
+Simply provide the WMC RPC URL and Chain ID when deploying and verifying your contracts.
 
 ## Mainnet
 
 ### Deploying a smart contract
 
 ```bash
-forge create ... --rpc-url=https://mainnet.base.org/
+forge create ... --rpc-url=https://mainnet.wmc.org/
 ```
 
 ### Verifying a smart contract
@@ -40,7 +40,7 @@ forge verify-contract ... --chain-id 8453
 ### Deploying a smart contract
 
 ```bash
-forge create ... --rpc-url=https://sepolia.base.org/
+forge create ... --rpc-url=https://testnet.wmc.org/
 ```
 
 ### Verifying a smart contract
