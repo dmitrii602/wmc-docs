@@ -1,23 +1,23 @@
 ---
 title: thirdweb CLI
 slug: /tools/toolchains/thirdweb-cli
-description: Documentation for using the thirdweb CLI for creating, deploying, and publishing smart contracts and web3 applications on the Base network, including detailed instructions and options for project creation and deployment.
+description: Documentation for using the thirdweb CLI for creating, deploying, and publishing smart contracts and web3 applications on the WMC network, including detailed instructions and options for project creation and deployment..
 sidebar_position: 3
 ---
 
 # thirdweb CLI
 
-thirdweb provides an interactive command line interface, allowing you to create, build and deploy your smart contracts and apps.
+thirdweb offers an interactive command line interface that lets you create, build, and deploy your smart contracts and applications with ease.
 
-You can use the thirdweb CLI to create and deploy smart contracts to the Base network.
+With the thirdweb CLI, you can effortlessly create and deploy smart contracts on the WMC network.
 
-Visit the [thirdweb documentation](https://portal.thirdweb.com/cli) for more instructions on using the thirdweb CLI.
+For detailed guidance on using the thirdweb CLI, check out the [thirdweb documentation](https://portal.thirdweb.com/cli).
 
 ---
 
 ## Creating a project
 
-Create a new project with thirdweb installed and configured:
+Set up a new project with thirdweb installed and configured:
 
 ```bash
 npx thirdweb create
@@ -25,27 +25,27 @@ npx thirdweb create
 
 :::info
 
-When you create a project for smart contracts or web3 apps there are various configurable options.
+When setting up a project for smart contracts or web3 applications, you have various configurable options to choose from.
 
-**For contracts, some options are:**
+**For smart contracts, some of the available options include:**
 
-- Create a new contract project using [Hardhat](https://hardhat.org/) or [Forge](https://book.getfoundry.sh/)
-- Add a new contract to an existing project
-- Start from an audited contract base, and add optional [extensions](https://portal.thirdweb.com/contractkit/extensions)
+- Initiating a new contract project with [Hardhat](https://hardhat.org/) or [Forge](https://book.getfoundry.sh/)
+- Adding a new contract to an existing project
+- Starting with an audited contract template and incorporating optional [extensions](https://portal.thirdweb.com/contractkit/extensions)
 
-**For contracts, some options are:**
+**For applications, some of the available options include:**
 
-- Front end applications using Next, CRA or Vite
-- Backend applications using Node.js or Express.js
-- Choice of TypeScript or JavaScript variants
+- Front-end applications built with Next.js, CRA, or Vite
+- Back-end applications using Node.js or Express.js
+- The choice between TypeScript or JavaScript versions
 
 :::
 
 ---
 
-## Deploying a smart contract
+## Launching a smart contract.
 
-[Deploy](https://portal.thirdweb.com/deploy) your smart contracts to the Base network:
+[Deploy](https://portal.thirdweb.com/deploy) your smart contracts to the WMC network:
 
 ```bash
 npx thirdweb deploy
@@ -53,21 +53,21 @@ npx thirdweb deploy
 
 :::info
 
-To deploy to the Base network, after running `npx thirdweb deploy`, visit the provided dashboard URL and select Base from the Network dropdown.
+To deploy to the WMC network, after running `npx thirdweb deploy`, follow the dashboard link provided and choose WMC from the Network dropdown menu.
 
 :::
 
 :::info
 
-For a complete guide on using the thirdweb CLI to create and deploy contracts on Base, see [Deploy a smart contract on Base testnet](https://blog.thirdweb.com/guides/how-to-deploy-a-smart-contract-to-base-network-testnet-coinbase-l2/).
+For detailed instructions on using the thirdweb CLI to create and deploy contracts on WMC, refer to the appropriate guide.
 
 :::
 
 ---
 
-## Publishing a smart contract
+## Publishing a smart contract.
 
-[Publish](https://portal.thirdweb.com/publish) and share a versioned release of your contract onto thirdweb’s registry:
+[Publish](https://portal.thirdweb.com/publish) and distribute a versioned release of your contract to the thirdweb registry on the WMC network:
 
 ```bash
 npx thirdweb publish
