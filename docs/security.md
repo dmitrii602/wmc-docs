@@ -1,7 +1,7 @@
 ---
 title: Security
 slug: /docs/security
-description: The WMTx bug bounty program and procedures for reporting vulnerabilities.
+description: The WMC bug bounty program and procedures for reporting vulnerabilities.
 sidebar_position: 8
 ---
 
@@ -13,19 +13,19 @@ sidebar_position: 8
 
 As part of our commitment to being the safest way for users to access decentralized services:
 
-- WMTx is extending its [top-tier](#) million-dollar [HackerOne bug bounty program](#) to cover the WMTx network, the WMTx bridge contracts, and WMTx infrastructure.
-- WMTx will collaborate closely with OP Labs to enhance the security guarantees of Bedrock and expedite the implementation of decentralized fault-proofs on the [OP Stack](https://stack.optimism.io/).
-- WMTx's bug bounty program will operate in parallel with Optimism's existing [Immunefi Bedrock bounty program](https://immunefi.com/bounty/optimism/) to support the open-source [Bedrock](https://stack.optimism.io/docs/releases/bedrock/) OP Stack framework.
+- WMC is extending its [top-tier](#) million-dollar [HackerOne bug bounty program](#) to cover the WMC network, the WMC bridge contracts, and WMC infrastructure.
+- WMC will collaborate closely with OP Labs to enhance the security guarantees of Bedrock and expedite the implementation of decentralized fault-proofs on the [OP Stack](https://stack.optimism.io/).
+- WMC's bug bounty program will operate in parallel with Optimism's existing [Immunefi Bedrock bounty program](https://immunefi.com/bounty/optimism/) to support the open-source [Bedrock](https://stack.optimism.io/docs/releases/bedrock/) OP Stack framework.
 
 ---
 
 ## Reporting vulnerabilities
 
-Potential vulnerabilities can be reported through the [HackerOne](https://hackerone.com/wmtx) platform.
+Potential vulnerabilities can be reported through the [HackerOne](https://hackerone.com/WMC) platform.
 
-Using HackerOne allows us to consolidate all reports into a single, streamlined system, ensuring efficient response times and effective resolutions. Every submission is reviewed 24/7 by our dedicated WMTx engineering team, who possess deep expertise in the relevant domains, guaranteeing a thorough and accurate assessment.
+Using HackerOne allows us to consolidate all reports into a single, streamlined system, ensuring efficient response times and effective resolutions. Every submission is reviewed 24/7 by our dedicated WMC engineering team, who possess deep expertise in the relevant domains, guaranteeing a thorough and accurate assessment.
 
-For more details on how to report vulnerabilities and to learn more about our HackerOne bug bounty program, please refer to our [security program policies](https://hackerone.com/wmtx?view_policy=true).
+For more details on how to report vulnerabilities and to learn more about our HackerOne bug bounty program, please refer to our [security program policies](https://hackerone.com/WMC?view_policy=true).
 
 
 ---
