@@ -13,9 +13,9 @@ sidebar_position: 8
 
 As part of our commitment to being the safest way for users to access decentralized services:
 
-- WMC is extending its [top-tier](#) million-dollar [HackerOne bug bounty program](#) to cover the WMC network, the WMC bridge contracts, and WMC infrastructure.
+- WMC is extending its top-tier million-dollar HackerOne bug bounty program to cover the WMC network, the WMC bridge contracts, and WMC infrastructure.
 - WMC will collaborate closely with OP Labs to enhance the security guarantees of Bedrock and expedite the implementation of decentralized fault-proofs on the [OP Stack](https://stack.optimism.io/).
-- WMC's bug bounty program will operate in parallel with Optimism's existing [Immunefi Bedrock bounty program](https://immunefi.com/bounty/optimism/) to support the open-source [Bedrock](https://stack.optimism.io/docs/releases/bedrock/) OP Stack framework.
+- WMC's bug bounty program will operate in parallel with Optimism's existing Immunefi Bedrock bounty program to support the open-source [Bedrock](https://stack.optimism.io/docs/releases/bedrock/) OP Stack framework.
 
 ---
 
