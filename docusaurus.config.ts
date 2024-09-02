@@ -103,6 +103,26 @@ const config: Config = {
           label: 'Tools',
           position: 'left',
           items: [
+            {
+              label: 'Node Providers',
+              to: '/tools/node-providers',
+            },
+            {
+              label: 'Block Explorers',
+              to: '/tools/block-explorers',
+            },
+            {
+              label: 'Network Faucets',
+              to: '/tools/network-faucets',
+            },
+            {
+              label: 'Onramps',
+              to: '/tools/onramps',
+            },
+            {
+              label: 'Toolchains',
+              to: '/category/toolchains',
+            },
           ],
         },
         {
@@ -121,9 +141,8 @@ const config: Config = {
               target: '_blank',
             },
             {
-              label: 'Faucet',
-              to: `${process.env.FAUCET_URL}`,
-              target: '_blank',
+              label: 'Faucets',
+              to: '/tools/network-faucets',
             },
             {
               label: 'Status',
