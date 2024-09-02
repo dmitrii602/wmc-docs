@@ -3,6 +3,7 @@ title: Account Abstraction
 slug: /tools/account-abstraction
 description: Documentation for Account Abstraction toolkits and solutions for apps built on Base.
 sidebar_position: 7
+sidebar_class_name: hidden
 ---
 
 # Account Abstraction

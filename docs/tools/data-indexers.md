@@ -3,6 +3,7 @@ title: Data Indexers
 slug: /tools/data-indexers
 description: Documentation for data indexing platforms for Base network.
 sidebar_position: 5
+sidebar_class_name: hidden
 ---
 
 # Data Indexers

@@ -3,6 +3,7 @@ title: User Onboarding
 slug: /tools/onboarding
 description: Documentation for various ways to onboard users in your apps on Base.
 sidebar_position: 9
+sidebar_class_name: hidden
 ---
 
 # User Onboarding
