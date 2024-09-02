@@ -7,7 +7,7 @@ slug: /
 
 # Introduction
 
-## About {process.env.BLOCKCHAIN_NETWORK}
+## About WMC
 
 <img src="img/banner.png" title="banner" />
 {process.env.BLOCKCHAIN_NETWORK} is a reliable and cost-effective Ethereum L3 solution designed to bring blockchain access to the next billion users. Built on Layer 3 architecture and integrated with the World Mobile network, {process.env.BLOCKCHAIN_NETWORK} addresses challenges in connectivity and financial inclusion by providing affordable and scalable access to decentralized technology and services. This solution empowers users to connect, transact, and build within a decentralized framework, reducing reliance on traditional centralized systems.
@@ -31,6 +31,6 @@ Unlock the power of the EVM environment without the heavy price tag. {process.en
 {process.env.BLOCKCHAIN_NETWORK} is architected on the MIT-licensed [OP Stack](https://stack.optimism.io/), developed in close collaboration with Optimism. As an active Core Dev team, we are committed to maintaining and enhancing the OP Stack to ensure it remains a public resource accessible to everyone. This collaborative approach guarantees a secure, scalable, and transparent foundation, fostering continuous innovation within the decentralized ecosystem. Security is a core focus, with {process.env.BLOCKCHAIN_NETWORK} building on Ethereum's robust security features and adding additional protections tailored to safeguard user assets and data, particularly in the context of financial inclusion and global connectivity.
 
 
-### Expanding with {process.env.BLOCKCHAIN_NETWORK}
+### Expanding with WMC
 
 {process.env.BLOCKCHAIN_NETWORK} provides a straightforward way for decentralized applications to leverage World Mobile's products and capabilities. Seamless integration with World Mobile, easy access to fiat onramps, and connection to a growing network of users within the World Mobile ecosystem.
