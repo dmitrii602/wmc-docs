@@ -4,23 +4,25 @@ slug: /tools/network-faucets
 sidebar_position: 3
 ---
 
+import Link from '/src/components/Links/Link';
+
 # Network Faucets
 
 ---
 
-## Coinbase Developer Platform
+## WMTx Faucet
 
-The [Coinbase Developer Platform Faucet](https://portal.cdp.coinbase.com/products/faucet) provides free testnet ETH on Base Sepolia - one claim per 24 hours.
+Obtain <Link url={process.env.FAUCET_URL}>{process.env.TOKEN_NAME}</Link> Sepolia tokens every 24 hours for seamless and confident development.
 
 :::info
 
-Requests to Coinbase Developer Platform's Faucet are limited to one claim per 24 hours.
+Each claim provides 50 {process.env.TOKEN_NAME} tokens per 24 hours.
 
 :::
 
 ---
 
-## Superchain Faucet
+<!-- ## Superchain Faucet
 
 The [Superchain Faucet](https://app.optimism.io/faucet) provides testnet ETH for all OP Chains, including Base.
 
@@ -90,6 +92,6 @@ Each wallet is restricted to receiving 0.5 ETH from this faucet every 24 hours.
 
 :::
 
----
+--- -->
 
 
