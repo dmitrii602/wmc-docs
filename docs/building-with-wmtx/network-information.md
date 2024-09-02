@@ -2,7 +2,7 @@
 title: Network Information
 sidebar_position: 1
 slug: /building-with-wmtx/network-information
-description: Documentation about WMTx Mainnet and WMTx Testnet. This page covers network information for the WMTx network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
+description: Documentation about WMC Mainnet and WMC Testnet. This page covers network information for the WMC network, including network names, descriptions, RPC endpoints, chain IDs, currency symbols, and block explorers.
 ---
 
 import Link from '/src/components/Links/Link';
@@ -11,7 +11,7 @@ import Link from '/src/components/Links/Link';
 
 ---
 
-#### WMTx Mainnet
+#### {process.env.PRODUCT_NAME} Mainnet
 
 | Name            | Value                                                                                                   |
 | :-------------- | :------------------------------------------------------------------------------------------------------ |

@@ -2,12 +2,12 @@
 sidebar_position: 2
 description: General description of interactions with LinQ services
 slug: /docs/using
-title: Using WMTx
+title: Using WMC
 ---
 
 import Link from '/src/components/Links/Link';
 
-# Using WMTx with your wallet
+# Using WMC with your wallet
 
 ---
 

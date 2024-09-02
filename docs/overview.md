@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-description: About WMTx
+description: About WMC
 slug: /
 
 ---

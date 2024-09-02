@@ -1,15 +1,15 @@
 ---
-title: Differences between Ethereum and Base
+title: Differences between Ethereum and WMC
 sidebar_position: 4
 slug: /building-with-wmtx/differences
-description: Documentation covering the differences between Ethereum and Base. This page includes details on differences between opcodes, blocks, network specifications, and transaction costs.
+description: Documentation covering the differences between Ethereum and WMC. This page includes details on differences between opcodes, blocks, network specifications, and transaction costs.
 ---
 
-# Differences between Ethereum and Base
+# Differences between Ethereum and {process.env.PRODUCT_NAME}
 
-Base is built on the [Bedrock](https://stack.optimism.io/docs/releases/bedrock/explainer/) release of the [OP Stack](https://stack.optimism.io/), which is designed from the ground up to be as close to Ethereum as possible. Because of this, there are very few differences when it comes to building on Base and Ethereum.
+{process.env.PRODUCT_NAME} is built on the [Bedrock](https://stack.optimism.io/docs/releases/bedrock/explainer/) release of the [OP Stack](https://stack.optimism.io/), which is designed from the ground up to be as close to Ethereum as possible. Because of this, there are very few differences when it comes to building on {process.env.PRODUCT_NAME} and Ethereum.
 
-However, there are still some minor discrepancies between the behavior of Base and Ethereum that you should be aware of when building apps on top of Base.
+However, there are still some minor discrepancies between the behavior of {process.env.PRODUCT_NAME} and Ethereum that you should be aware of when building apps on top of {process.env.PRODUCT_NAME}.
 
 These minor differences include:
 
