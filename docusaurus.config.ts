@@ -6,7 +6,7 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 const config: Config = {
-  title: `${process.env.PRODUCT_NAME} Docs`,
+  title: `${process.env.BLOCKCHAIN_NETWORK} Docs`,
   favicon: 'img/favicon.ico',
 
   url: `${process.env.PRODUCT_URL}`,
@@ -65,9 +65,9 @@ const config: Config = {
       isCloseable: false,
     },
     navbar: {
-      title: `${process.env.PRODUCT_NAME} Docs`,
+      title: `${process.env.BLOCKCHAIN_NETWORK} Docs`,
       logo: {
-        alt: `${process.env.PRODUCT_NAME} Logo`,
+        alt: `${process.env.BLOCKCHAIN_NETWORK} Logo`,
         src: 'img/logo.svg',
       },
       items: [
@@ -163,77 +163,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      // links: [
-      //   {
-      //     title: 'Documentation',
-      //     items: [
-      //       {
-      //         label: 'Auth Actions',
-      //         to: '/modules/auth',
-      //       },
-      //       {
-      //         label: 'Money Operations',
-      //         to: '/modules/money',
-      //       },
-      //       {
-      //         label: 'Play Mechanics',
-      //         to: '/modules/play',
-      //       },
-      //       {
-      //         label: 'Location Checks',
-      //         to: '/modules/location-checks',
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     title: 'Developers',
-      //     items: [
-      //       {
-      //         label: 'Platform SDKs',
-      //         href: 'https://buf.build/linq/linq',
-      //       },
-      //       {
-      //         label: 'Buf Studio',
-      //         href: 'https://buf.build/studio',
-      //       },
-      //       {
-      //         label: 'GitHub',
-      //         href: 'https://github.com/linkgg/docs',
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     title: 'Resources',
-      //     items: [
-      //       {
-      //         label: 'LinQ Pay',
-      //         href: 'https://linq.gg/',
-      //       },
-      //       {
-      //         label: 'App Store',
-      //         href: 'https://apps.apple.com/us/developer/galactica-games/id1680876974',
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     title: 'Legal',
-      //     items: [
-      //       {
-      //         label: 'Privacy Policy',
-      //         href: 'https://linq.gg/privacy-policy',
-      //       },
-      //       {
-      //         label: 'Terms & Conditions',
-      //         href: 'https://linq.gg/terms-of-use',
-      //       },
-      //       {
-      //         label: 'Contact',
-      //         href: 'mailto:help@galactica.games',
-      //       },
-      //     ],
-      //   },
-      // ],
-      copyright: `Copyright © ${new Date().getFullYear()} ${process.env.PRODUCT_NAME}`,
+      copyright: `Copyright © ${new Date().getFullYear()} ${process.env.BLOCKCHAIN_NETWORK}`,
     },
     prism: {
       theme: prismThemes.github,

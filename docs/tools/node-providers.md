@@ -4,11 +4,27 @@ slug: /tools/node-providers
 sidebar_position: 1
 ---
 
+import Link from '/src/components/Links/Link';
+
 # Node Providers
 
 ---
 
-## Coinbase Developer Platform (CDP)
+## How to run your own nodes
+
+To deploy {process.env.BLOCKCHAIN_NETWORK} nodes on your own servers, follow the guide in the repository: 
+<Link url={process.env.OWN_NODES}>{process.env.OWN_NODES}</Link>, which details the setup process using Docker Compose.
+
+The repository also includes links to advanced documentation for those needing more complex deployment scenarios, including building {process.env.BLOCKCHAIN_NETWORK} from source.
+
+#### Supported Networks
+
+- {process.env.BLOCKCHAIN_NETWORK} Mainnet
+- {process.env.BLOCKCHAIN_NETWORK} Sepolia (Testnet)
+
+---
+
+<!-- ## Coinbase Developer Platform (CDP)
 
 [CDP](https://portal.cdp.coinbase.com/) provides an RPC endpoint that runs on the same node infrastructure that powers Coinbase's retail exchange, meaning you get the rock solid reliability of our retail exchange as a developer. CDP gives you a free, rate limited RPC endpoint to begin building on Base.
 
@@ -240,6 +256,6 @@ sidebar_position: 1
 
 - Base Mainnet
 
----
+--- -->
 
 

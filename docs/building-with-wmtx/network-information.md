@@ -11,12 +11,12 @@ import Link from '/src/components/Links/Link';
 
 ---
 
-#### {process.env.PRODUCT_NAME} Mainnet
+#### {process.env.BLOCKCHAIN_NETWORK} Mainnet
 
 | Name            | Value                                                                                                   |
 | :-------------- | :------------------------------------------------------------------------------------------------------ |
-| Network Name    | {process.env.PRODUCT_NAME} Mainnet                                                                                            |
-| Description     | The public mainnet for {process.env.PRODUCT_NAME}.                                                                            |
+| Network Name    | {process.env.BLOCKCHAIN_NETWORK} Mainnet                                                                                            |
+| Description     | The public mainnet for {process.env.BLOCKCHAIN_NETWORK}.                                                                            |
 | RPC Endpoint    | {process.env.RPC_ENDPOINT_MAINNET} <br/>_Rate limited and not for production systems._ |
 | Chain ID        | {process.env.CHAIN_ID_MAINNET}                                                                                                    |
 | Currency Symbol | {process.env.CURRENCY_SYMBOL_MAINNET}                                                                                                     |
@@ -24,12 +24,12 @@ import Link from '/src/components/Links/Link';
 
 ---
 
-#### {process.env.PRODUCT_NAME} Testnet (Sepolia)
+#### {process.env.BLOCKCHAIN_NETWORK} Testnet (Sepolia)
 
 | Name            | Value                                                                                                   |
 | :-------------- | :------------------------------------------------------------------------------------------------------ |
-| Network Name    | {process.env.PRODUCT_NAME} Sepolia                                                                                            |
-| Description     | A public testnet for {process.env.PRODUCT_NAME}.                                                                              |
+| Network Name    | {process.env.BLOCKCHAIN_NETWORK} Sepolia                                                                                            |
+| Description     | A public testnet for {process.env.BLOCKCHAIN_NETWORK}.                                                                              |
 | RPC Endpoint    | {process.env.RPC_ENDPOINT_TESTNET} <br/>_Rate limited and not for production systems._ |
 | Chain ID        | {process.env.CHAIN_ID_TESTNET}                                                                                                   |
 | Currency Symbol | {process.env.CURRENCY_SYMBOL_TESTNET}                                                                                                     |
@@ -38,11 +38,11 @@ import Link from '/src/components/Links/Link';
 ---
 
 :::info
-L1 & L2 protocol and network-related smart contract deployments can be found on the [{process.env.PRODUCT_NAME} Contracts](/building-with-wmtx/wmtx-contracts) page.
+L1 & L2 protocol and network-related smart contract deployments can be found on the [{process.env.BLOCKCHAIN_NETWORK} Contracts](/building-with-wmtx/wmtx-contracts) page.
 :::
 
 :::info
-For production systems, we recommend using a node from one of our [node partners](/tools/node-providers), or running your own {process.env.PRODUCT_NAME} node.
+For production systems, we recommend using a node from one of our [node partners](/tools/node-providers), or running your own {process.env.BLOCKCHAIN_NETWORK} node.
 :::
 
 ---
