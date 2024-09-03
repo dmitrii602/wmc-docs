@@ -49,6 +49,16 @@ const config: Config = {
   ],
   plugins: [
     [
+      '@easyops-cn/docusaurus-search-local', //https://github.com/easyops-cn/docusaurus-search-local?tab=readme-ov-file
+      {
+        hashed: false, //true
+        docsRouteBasePath: '/',
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+      },
+    ],
+    [
       "docusaurus2-dotenv",
       {
         systemvars: true,
