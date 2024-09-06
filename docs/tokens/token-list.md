@@ -7,31 +7,50 @@ sidebar_position: 1
 
 import Link from '/src/components/Links/Link';
 
-# The WMTx Token List
+# Bridging an L1 to L3
 
 <img src="../img/bridge.png" title="banner" />
+{process.env.TOKEN_NAME} 
+<Link url={process.env.BRIDGE_TESTNET}>bridge itself</Link>
 
-This page is intended for token issuers who already have an ERC-20 contract deployed on Ethereum (L1) and would like to submit their token for bridging between Ethereum (L1) and {process.env.TOKEN_NAME} (L3). {process.env.TOKEN_NAME} uses the [Optimism Superchain token list](https://github.com/ethereum-optimism/ethereum-optimism.github.io) as a reference for tokens that have been deployed on {process.env.TOKEN_NAME}.
+## Deposit WMTx from Ethereum to WMC
 
-**_Disclaimer: {process.env.TOKEN_NAME} does not endorse any of the tokens that are listed in the Github repository and has conducted only preliminary checks, which include automated checks listed_** [**_here_**](https://github.com/ethereum-optimism/ethereum-optimism.github.io)**_._**
+### Instructions
 
-To learn more about the bridging process between L1 and L3, please refer to the <Link url={process.env.BRIDGE_TESTNET}>bridge itself</Link>.
+1. After navigating to the <Link url={process.env.BRIDGE_TESTNET}>bridge app</Link>, press the “Connect Wallet” button. You might need to switch your wallet to the right network.
 
+2. In the app, select the **Deposit** tab.
+
+3. Enter the required amount of {process.env.TOKEN_NAME} to transfer to L3. Then click the "Approve" button to finalize the deposit. 
+
+4. After the amount of {process.env.TOKEN_NAME} is approved, you can make a deposit no greater than the approved amount.
+
+5. Once the transfer transaction is sent and confirmed, the token will be deducted from your wallet.
+
+6. You can always check the transaction status by clicking the "**Activity**" button at the bottom of the screen.
 
 ---
 
-## Adding your token to the list
+## Withdraw WMTx from WMC to Ethereum
 
-The steps below explain how to get your token on the {process.env.TOKEN_NAME} Token List.
+### Instructions
 
-### Step 1: Deploy your token on WMTx
+#### Submitting your Initial Withdrawal Transaction
 
-Select your preferred bridging framework and use it to deploy an ERC-20 for your token on {process.env.TOKEN_NAME}. We recommend you use the framework provided by {process.env.TOKEN_NAME}'s standard bridge contracts, and furthermore deploy your token using the [OptimismMintableERC20Factory](/building-with-wmtx/wmtx-contracts). Deploying your token on {process.env.TOKEN_NAME} in this manner provides us with guarantees that will smooth the approval process. If you choose a different bridging framework, its interface must be compatible with that of the standard bridge, otherwise it may be difficult for us to support.
+1. First, select the "**Withdraw**" tab in the app. You may need to switch your wallet to the correct network.
 
-### Step 2: Submit details for your token
+2. Enter the allowable amount of {process.env.TOKEN_NAME}.
 
-Follow the instructions in the [GitHub repository](https://github.com/ethereum-optimism/ethereum-optimism.github.io) and submit a PR containing the required details for your token. You must specify in your token's data.json file a section for ‘wmtx-sepolia' and/or ‘wmtx’. The change you need to submit is particularly simple if your token has already been added to the Optimism token list.
+3. Then press the "**Withdraw**" button to initiate the withdrawal. Your wallet will prompt you to confirm the transaction.
 
-### Step 3: Await final approval
+### Withdrawing funds from WMC (L3) — it's a three-step process that includes 1 transaction on L3 and 2 transactions on L1, and takes around 7 days
 
-Reviews are regularly conducted by the {process.env.TOKEN_NAME} team and you should receive a reply within 24-72 hours (depending on if the PR is opened on a week day, weekend or holiday).
+1. **Initiating the withdrawal**. First, you need to initiate the withdrawal. This will require one transaction in the L3 network.
+
+2. **Waiting ~1 hour**. After initiating the withdrawal, you need to wait approximately 1 hour for this step to complete.
+
+3. **Confirmation on L1**. The next step is to confirm the transaction on the L1 network. This requires a separate transaction on L1.
+
+4. **Waiting ~7 days**. Then you will need to wait approximately 7 days for the process to complete.
+
+5. **Receiving funds on L1**. After completing all steps, you can finalize the withdrawal by pressing the "**Claim**" button on the L1 network.
