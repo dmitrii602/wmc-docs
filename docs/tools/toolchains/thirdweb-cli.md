@@ -9,7 +9,7 @@ sidebar_position: 3
 
 thirdweb offers an interactive command line interface that lets you create, build, and deploy your smart contracts and applications with ease.
 
-With the thirdweb CLI, you can effortlessly create and deploy smart contracts on the WMC network.
+With the thirdweb CLI, you can effortlessly create and deploy smart contracts on the {process.env.BLOCKCHAIN_NETWORK} network.
 
 For detailed guidance on using the thirdweb CLI, check out the [thirdweb documentation](https://portal.thirdweb.com/cli).
 
@@ -45,7 +45,7 @@ When setting up a project for smart contracts or web3 applications, you have var
 
 ## Launching a smart contract.
 
-[Deploy](https://portal.thirdweb.com/deploy) your smart contracts to the WMC network:
+[Deploy](https://portal.thirdweb.com/deploy) your smart contracts to the {process.env.BLOCKCHAIN_NETWORK} network:
 
 ```bash
 npx thirdweb deploy
@@ -53,13 +53,13 @@ npx thirdweb deploy
 
 :::info
 
-To deploy to the WMC network, after running `npx thirdweb deploy`, follow the dashboard link provided and choose WMC from the Network dropdown menu.
+To deploy to the {process.env.BLOCKCHAIN_NETWORK} network, after running `npx thirdweb deploy`, follow the dashboard link provided and choose {process.env.BLOCKCHAIN_NETWORK} from the Network dropdown menu.
 
 :::
 
 :::info
 
-For detailed instructions on using the thirdweb CLI to create and deploy contracts on WMC, refer to the appropriate guide.
+For detailed instructions on using the thirdweb CLI to create and deploy contracts on {process.env.BLOCKCHAIN_NETWORK}, refer to the appropriate guide.
 
 :::
 
@@ -67,7 +67,7 @@ For detailed instructions on using the thirdweb CLI to create and deploy contrac
 
 ## Publishing a smart contract.
 
-[Publish](https://portal.thirdweb.com/publish) and distribute a versioned release of your contract to the thirdweb registry on the WMC network:
+[Publish](https://portal.thirdweb.com/publish) and distribute a versioned release of your contract to the thirdweb registry on the {process.env.BLOCKCHAIN_NETWORK} network:
 
 ```bash
 npx thirdweb publish

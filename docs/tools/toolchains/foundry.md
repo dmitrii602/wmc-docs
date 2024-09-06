@@ -11,15 +11,15 @@ Foundry is a comprehensive toolchain for smart contract development.
 
 With Foundry, you can manage dependencies, compile projects, run tests, deploy smart contracts, and interact with the blockchain via the command line and Solidity scripts.
 
-Refer to the [Foundry Book](https://book.getfoundry.sh/) to begin using Foundry with WMC.
+Refer to the [Foundry Book](https://book.getfoundry.sh/) to begin using Foundry with {process.env.BLOCKCHAIN_NETWORK}.
 
 ---
 
 # Using Foundry with WMC
 
-Foundry offers native support for WMC.
+Foundry offers native support for {process.env.BLOCKCHAIN_NETWORK}.
 
-Simply provide the WMC RPC URL and Chain ID when deploying and verifying your contracts.
+Simply provide the {process.env.BLOCKCHAIN_NETWORK} RPC URL and Chain ID when deploying and verifying your contracts.
 
 ## Mainnet
 
