@@ -207,6 +207,10 @@ const config: Config = {
         autoCollapseCategories: true,
       },
     },
+    metadata: [
+      { name: 'og:image', content: 'img/og-image.png' },
+      { name: 'twitter:image', content: 'img/og-image.png' }
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
