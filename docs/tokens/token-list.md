@@ -10,8 +10,6 @@ import Link from '/src/components/Links/Link';
 # Bridging an L1 to L3
 
 <img src="../img/bridge.png" title="banner" />
-{process.env.TOKEN_NAME} 
-<Link url={process.env.BRIDGE_TESTNET}>bridge itself</Link>
 
 ## Deposit WMTx from Ethereum to WMC
 
