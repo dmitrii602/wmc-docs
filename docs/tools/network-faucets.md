@@ -1,5 +1,5 @@
 ---
-description: Integration module for checking user location to confirm transactions.
+description: WMTx faucet on the Sepolia network, allowing developers to claim 50 test tokens every 24 hours for seamless development.
 slug: /tools/network-faucets
 sidebar_position: 3
 ---

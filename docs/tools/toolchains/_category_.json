@@ -4,6 +4,6 @@
   "collapsed": true,
   "link": {
     "type": "generated-index",
-    "description": "Description of the main integration modules, used in the API."
+    "description": "Toolchains provide key development tools like Foundry, Hardhat, and thirdweb CLI for smart contract deployment, testing, and management."
   }
 }

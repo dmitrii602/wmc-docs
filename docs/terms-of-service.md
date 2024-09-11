@@ -1,7 +1,7 @@
 ---
 title: Terms of Service
 slug: /docs/terms-of-service
-description: The Terms of Service for using Base, a layer-two optimistic rollup on Ethereum.
+description: The Terms of Service for using WMC
 sidebar_position: 9
 ---
 

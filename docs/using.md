@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-description: General description of interactions with LinQ services
+description: Instructions for adding WMC Mainnet and Sepolia Testnet to MetaMask, including the necessary RPC details, Chain ID, and network settings for both networks.
 slug: /docs/using
 title: Using WMC
 ---

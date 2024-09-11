@@ -1,5 +1,5 @@
 ---
-description: Description of methods for working with tournaments and its players
+description: Instructions for deploying WMC nodes on servers with support for WMC Mainnet and WMC Sepolia networks using Docker Compose
 slug: /tools/node-providers
 sidebar_position: 1
 ---

@@ -4,6 +4,6 @@
   "collapsed": true,
   "link": {
     "type": "generated-index",
-    "description": "Description of the main integration modules, used in the API."
+    "description": "Access essential tools for working with the WMC network, including node providers, block explorers, onramps, and toolchains."
   }
 }

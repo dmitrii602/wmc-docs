@@ -4,6 +4,6 @@
   "collapsed": true,
   "link": {
     "type": "generated-index",
-    "description": "Description of the main integration modules, used in the API."
+    "description": "How to bridge ERC-20 tokens between the Ethereum (L1) and WMC (L3) networks, simplifying token transfers across layers."
   }
 }

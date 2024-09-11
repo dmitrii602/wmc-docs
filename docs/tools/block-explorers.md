@@ -1,5 +1,5 @@
 ---
-description: Integration module for checking user location to confirm transactions.
+description: Explorer for WMC, offering smart contract inspection, transaction details, and access to the WMC Sepolia testnet explorer.
 slug: /tools/block-explorers
 sidebar_position: 2
 ---

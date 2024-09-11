@@ -1,7 +1,7 @@
 ---
 title: Bridging an L1 to L3
 slug: /tokens/list
-description: How to submit ERC-20 tokens for bridging between Ethereum (L1) and WMTx (L3) as a token issuer.
+description: How to bridge ERC-20 tokens between Ethereum (L1) and WMC (L3) networks, simplifying token transfers across layers.
 sidebar_position: 1
 ---
 

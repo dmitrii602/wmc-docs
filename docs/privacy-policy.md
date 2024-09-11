@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 slug: /docs/privacy-policy
-description: The Privacy Policy for Base. Covers how we collect, use, and share personal information of users and developers through our services, including legal bases and data retention.
+description: The Privacy Policy for WMC.
 sidebar_position: 10
 ---
 

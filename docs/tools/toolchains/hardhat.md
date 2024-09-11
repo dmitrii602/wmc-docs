@@ -1,7 +1,7 @@
 ---
 title: Hardhat
 slug: /tools/toolchains/hardhat
-description: Documentation for configuring Hardhat for smart contract development on WMTx, including setup instructions for mainnet, testnet, and local development environments.
+description: Documentation for configuring Hardhat for smart contract development on WMC, including setup instructions for mainnet, testnet, and local development environments.
 sidebar_position: 2
 ---
 
@@ -9,13 +9,13 @@ sidebar_position: 2
 
 Hardhat is a robust Ethereum development platform that provides a versatile and efficient environment for smart contract development.
 
-Utilize Hardhat to manage the entire lifecycle of your smart contracts, including editing, compiling, debugging, and deploying on WMTx.
+Utilize Hardhat to manage the entire lifecycle of your smart contracts, including editing, compiling, debugging, and deploying on WMC.
 
 ---
 
-# Configuring Hardhat for WMTx
+# Configuring Hardhat for WMC
 
-To set up [Hardhat](https://hardhat.org/) for deploying smart contracts on WMTx, update your project’s `hardhat.config.ts` file by adding WMTx as a network:
+To set up [Hardhat](https://hardhat.org/) for deploying smart contracts on WMC, update your project’s `hardhat.config.ts` file by adding WMC as a network:
 
 ```tsx
 networks: {
@@ -43,7 +43,7 @@ networks: {
 
 :::info
 
-For a complete guide on using Hardhat to deploy contracts on WMTx, see Deploying a Smart Contract.
+For a complete guide on using Hardhat to deploy contracts on WMC, see Deploying a Smart Contract.
 
 :::
 
