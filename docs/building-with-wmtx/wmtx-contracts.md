@@ -9,7 +9,7 @@ description: A comprehensive list of L2 contract addresses for WMC Mainnet and W
 
 ## L2 Contract Addresses
 
-### {process.env.BLOCKCHAIN_NETWORK} Mainnet
+### WMC Mainnet
 
 | Name                          | Address                                   |
 | :---------------------------- | :---------------------------------------- |
@@ -31,7 +31,7 @@ description: A comprehensive list of L2 contract addresses for WMC Mainnet and W
 | LegacyERC20ETH                | {process.env.LEGACYERC20ETH_WMC_MAINNET} |
 
 
-### {process.env.BLOCKCHAIN_NETWORK} Testnet (Sepolia)
+### WMC Testnet (Sepolia)
 
 | Name                          | Address                                   |
 | :---------------------------- | :---------------------------------------- |
@@ -95,14 +95,13 @@ Certain contracts are mandatory according to the [OP Stack SDK](https://stack.op
 | MIPS                         | {process.env.MIPS_ETH_TESTNET}            |
 | OptimismMintableERC20Factory | {process.env.OPTIMISMERC20FACTORY_ETH_TESTNET} |
 | OptimismPortal               | {process.env.OPTIMISMPORTAL_ETH_TESTNET}  |
-| PermissionedDisputeGame      | {process.env.PERMISSIONEDDISPUTEGAME_ETH_TESTNET} |
 | PreimageOracle               | {process.env.PREIMAGEORACLE_ETH_TESTNET}  |
 | ProxyAdmin                   | {process.env.PROXYADMIN_ETH_TESTNET}      |
 | SystemConfig                 | {process.env.SYSTEMCONFIG_ETH_TESTNET}    |
 
-## {process.env.BLOCKCHAIN_NETWORK} Admin Addresses
+## WMC Admin Addresses
 
-### {process.env.BLOCKCHAIN_NETWORK} Mainnet
+### WMC Mainnet
 
 | Admin Role                       | Address                                   | Type of Key                               |
 | :------------------------------- | :---------------------------------------- | :---------------------------------------- |
@@ -119,7 +118,7 @@ Certain contracts are mandatory according to the [OP Stack SDK](https://stack.op
 | System config owner              | {process.env.SYSTEMCONFIGOWNER_WMC_MAINNET} | Gnosis Safe                               |
 | Guardian                         | {process.env.GUARDIAN_WMC_MAINNET}       | Gnosis Safe                               |
 
-### {process.env.BLOCKCHAIN_NETWORK} Testnet (Sepolia)
+### WMC Testnet (Sepolia)
 
 | Admin Role             | Address                                   | Type of Key                          |
 | :--------------------- | :---------------------------------------- | :----------------------------------- |
