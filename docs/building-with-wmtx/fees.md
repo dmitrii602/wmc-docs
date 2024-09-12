@@ -1,13 +1,13 @@
 ---
-title: Fees
+title: Network Fees
 sidebar_position: 3
 slug: /building-with-wmtx/fees
 description: Overview of Network Fees on WMC. This page explains the two-part fee structure, detailing the L3 execution fees and L1 security fees, while providing insights into how these fees fluctuate and offering strategies to minimize costs by optimizing transaction timing.
 ---
 
-# Fees
+# Network Fees
 
-## How do network fees on WMC work?
+## How are network fees calculated on WMC?
 
 Each {process.env.BLOCKCHAIN_NETWORK} transaction between L3 and L1 involves two key costs: the L3 (execution) fee and the L1 (security) fee.
 The L3 fee covers transaction execution on the L3, while the L1 fee accounts for the cost of publishing the transaction to the L1 for security purposes. In most cases, the L1 security fee will be higher than the L3 execution fee.

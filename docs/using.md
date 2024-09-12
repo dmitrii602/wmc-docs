@@ -7,7 +7,7 @@ title: Using WMC
 
 import Link from '/src/components/Links/Link';
 
-# Using WMC with your wallet
+# Using WMC 
 
 ---
 
